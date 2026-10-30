@@ -1,0 +1,13 @@
+\' 	 = Single Quote 	also use for the doubel quote like \"
+\\ 	 = Backslash 	
+\n 	 = New Line 	
+\r 	 = Carriage Return 	
+\t 	 = Tab 	
+\b 	 =  Backspace 	
+\f   =	Form Feed 	
+\ooo =	Octal value 	
+\xhh =	Hex value
+print(variable_one, end="")
+Key idea: end controls what happens after each print() call. You can use a space, an empty string, or another character.
+# end parameter in the print function is used to specify what to print at the end of the output. By default, it is set to a newline character (\n),
+#  which means that after printing the output, it will move to the next line. However, you can change this behavior by specifying a different value for the end parameter.
